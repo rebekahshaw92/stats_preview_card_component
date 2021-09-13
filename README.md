@@ -28,11 +28,11 @@ Users should be able to:
 
 #### Desktop
 
-![Desktop][images/desktop_site.png]
+![Desktop](images/desktop_site.png)
 
 #### Mobile
 
-![Mobile][images/mobile_site.png]
+![Mobile](images/mobile_site.png)
 
 ### links
 

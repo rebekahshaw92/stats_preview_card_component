@@ -1,0 +1,132 @@
+$veryDarkBlue: hsl(233, 47%, 7%);
+$white:  hsl(0, 0%, 100%);
+$slightlyTransparentWhite: hsla(0, 0%, 100%, 0.75);
+$darkDesaturatedBlue: hsl(244, 38%, 16%);
+$font: 'Inter', sans-serif;
+$softViolet: hsl(277, 64%, 61%);
+$desktop: 1440px;
+$mobile: 375px;
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding-top: 20px;
+    color: #fff;
+    a { 
+        color: hsl(228, 45%, 44%); 
+    }
+}
+
+body {
+    background-color: $veryDarkBlue;
+}
+
+.page-header {
+    color: $white;
+    font-family: $font;
+    @media (max-width: $desktop){
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    }
+    @media (max-width: $mobile){
+        text-align: center;
+        font-size: 22px;
+    }
+}
+
+.insights {
+    color: $softViolet;
+}
+.page-text {
+    color: $slightlyTransparentWhite;
+    @media (max-width: $desktop) {
+    padding-left: 50px;
+    padding-right: 70px;
+    font-size: 11px;
+}
+@media (max-width: $mobile){
+    text-align: center;
+    padding-left: 20px;
+    width:  350px;
+    font-size: 15px;
+}
+}
+
+.text { 
+        font-size: 11px;
+        color: $slightlyTransparentWhite;
+}
+
+    .text-header {
+        color: $white;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        @media (max-width: $desktop) {
+            font-size: 18px;
+        }
+        @media (max-width: $mobile) {
+            font-size: 20px;
+        }
+            
+    }
+
+
+.container {
+    background-color: $darkDesaturatedBlue;
+
+    @media (max-width: $desktop) {
+    height: 310px;
+    }
+    @media (max-width: $mobile) {
+         height: 550px;
+         width: 310px;
+         padding-right: 20px;
+}
+}
+
+
+.my-img {
+     @media (max-width: $desktop){
+        display: none;
+     }
+     @media (max-width: $mobile){
+         display: block;
+         padding-top: 10px;
+         width: 310px;
+         height: 285px;
+         filter: grayscale(10%) brightness(50%) sepia(80%) hue-rotate(-100deg) saturate(600%) contrast(0.8);
+     }
+
+}
+.bg-img {
+    width: 390px;
+    height: 310px;
+    filter: grayscale(10%) brightness(40%) sepia(80%) hue-rotate(-120deg) saturate(600%) contrast(0.8);
+    @media (max-width: $mobile){
+        display: none;
+    }
+}
+
+.page-stat {
+    padding: 20px;
+    padding-left: 50px;
+    @media (max-width: $mobile){
+        text-align: center;
+        width: 300px;
+        font-size: 15px;
+    }
+}
+
+.main-container {
+    margin: 0 auto; 
+    float: none; 
+    padding-top: 60px;
+    @media (max-width: $mobile) {
+        // padding-right: 20px;
+         padding-left: 40px;
+}
+}

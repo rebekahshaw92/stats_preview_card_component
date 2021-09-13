@@ -1,0 +1,145 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  background-color: #090b1a;
+}
+
+.page-header {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+@media (max-width: 1440px) {
+  .page-header {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+  }
+}
+@media (max-width: 375px) {
+  .page-header {
+    text-align: center;
+    font-size: 22px;
+  }
+}
+
+.insights {
+  color: #aa5cdb;
+}
+
+.page-text {
+  color: rgba(255, 255, 255, 0.75);
+}
+@media (max-width: 1440px) {
+  .page-text {
+    padding-left: 50px;
+    padding-right: 70px;
+    font-size: 11px;
+  }
+}
+@media (max-width: 375px) {
+  .page-text {
+    text-align: center;
+    padding-left: 20px;
+    width: 350px;
+    font-size: 15px;
+  }
+}
+
+.text {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.text-header {
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+@media (max-width: 1440px) {
+  .text-header {
+    font-size: 18px;
+  }
+}
+@media (max-width: 375px) {
+  .text-header {
+    font-size: 20px;
+  }
+}
+
+.container {
+  background-color: #1b1938;
+}
+@media (max-width: 1440px) {
+  .container {
+    height: 310px;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    height: 550px;
+    width: 310px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .my-img {
+    display: none;
+  }
+}
+@media (max-width: 375px) {
+  .my-img {
+    display: block;
+    padding-top: 10px;
+    width: 310px;
+    height: 285px;
+    filter: grayscale(10%) brightness(50%) sepia(80%) hue-rotate(-100deg) saturate(600%) contrast(0.8);
+  }
+}
+
+.bg-img {
+  width: 390px;
+  height: 310px;
+  filter: grayscale(10%) brightness(40%) sepia(80%) hue-rotate(-120deg) saturate(600%) contrast(0.8);
+}
+@media (max-width: 375px) {
+  .bg-img {
+    display: none;
+  }
+}
+
+.page-stat {
+  padding: 20px;
+  padding-left: 50px;
+}
+@media (max-width: 375px) {
+  .page-stat {
+    text-align: center;
+    width: 300px;
+    font-size: 15px;
+  }
+}
+
+.main-container {
+  margin: 0 auto;
+  float: none;
+  padding-top: 60px;
+}
+@media (max-width: 375px) {
+  .main-container {
+    padding-left: 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -36,8 +36,8 @@ Users should be able to:
 
 ### links
 
-- Solution URL: [Solution](https://your-solution.com)
-- Live Site URL: [Live Site](https://your-live-site.com)
+- Solution URL: [Solution](https://github.com/rebekahshaw92/stats_preview_card_component)
+- Live Site URL: [Live Site](https://rebekahshaw92.github.io/stats_preview_card_component/)
 
 ## My process
 

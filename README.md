@@ -50,7 +50,7 @@ Users should be able to:
 
 ### What I learned
 
-While undertaking this challenge I learned how to create add shadows in css and how to style buttons using css and how to hide and show parts of my css. 
+While undertaking this challenge I learned how to create and add shadows in css and how to style buttons using css and how to hide and show parts of my css. 
 
 ### Continued development
 
